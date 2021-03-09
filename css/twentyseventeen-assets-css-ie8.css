@@ -105,6 +105,13 @@ img {
 	position: relative;
 	z-index: 10;
 }
+a:hover{
+	text-decoration: none !important;
+  
+  }
+#nav {
+	height: 100px;
+}
 
 .menu-toggle {
 	width: 150px;

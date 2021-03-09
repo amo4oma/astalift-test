@@ -249,8 +249,9 @@ p {
   top: 0;
   left: 0;
   border-bottom: 7px solid #ffffff;
-  padding-bottom: 97px;
+  padding-bottom: 65px;
 }
+
 
 .header-button-text {
   color: #cf063b;
@@ -258,6 +259,9 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.2;
+}
+.header-button-text:hover{
+  text-decoration: none !important;
 }
 
 .header-astalift-placeholder {
@@ -1451,6 +1455,9 @@ p {
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
+  #nav{
+    height: 100px;
+  }
   h1{
  font-size: 80px !important;
   }
@@ -1466,6 +1473,10 @@ and (max-device-width : 480px) {
   p{
     font-size: 27px !important;
      
+  }
+  .text-h1{
+    margin-top: 70px;
+    margin-bottom: 70px;
   }
   .prod-details-container{
     height: 60%;
@@ -1483,14 +1494,17 @@ and (max-device-width : 480px) {
     height: 0%;
   }
   .section-form-cta-container{
-    top: 331px;
+    top: 283px;
     position: relative;
-    margin-left: -0px;
+    margin-left: 155px;
+    margin: 155px;
     
   }
   .button-primary{
-    font-size: 24px;
-    padding: 20px ;
+    font-size: 30px;
+    padding: 28px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   .section-form-cta-input{
     width: 100%;
@@ -1505,12 +1519,46 @@ and (max-device-width : 480px) {
     font-weight: 300;
     padding: 10px;
   }
+  .prod-details-features-wrapper{
+    margin-top: 270px;
+  }
+  .banner-text-subtitle,  .banner-text-secondary-subtitle {
+    
+    font-size: 42px !important;
+  }
+  .banner-text-content {
+  font-size: 38px !important;
+  }
+  .duv-clear-text-highlight-image {
+    height: 214%;
+  }
+  .banner-social-button {
+    width: 80px;
+    height: 80px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #cf063b;
+    border-radius: 50px;
+    margin-right: 20px;
+  }
+.fb-icon{
+  width: 30px;
+}
+.insta-icon{
+  width: 50px;
+}
+.youtube-icon{
+  width: 50px;
+}
 }
 @media (min-width: 768px) {
   .section-container {
-    max-width: 650px;
+    max-width: 850px;
     margin: 0 auto;
   }
+
 
   .banner-img-medium {
     display: block;

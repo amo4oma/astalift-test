@@ -3349,7 +3349,7 @@ p > object:only-child {
 		font-size: 0.875rem;
 	}
 	.fixed-top{
-		padding-bottom: 56px !important;
+		height: 100px;
 	}
 
 
