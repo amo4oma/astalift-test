@@ -1528,6 +1528,9 @@ and (max-device-width : 480px) {
   .product-selection-item-details-image-small{
     width: 269px;
   }
+  p{
+    margin-bottom: 0rem !important;
+  }
 }
 
 @media (min-width: 1024px) {

@@ -78,6 +78,19 @@ body {
 	cursor: pointer;
 	border: none;
   }
+  #nav-icon3:focus{
+	  background-color: #CF063B;
+	
+  }
+  #nav-icon3:hover{
+	background-color: #CF063B;
+	 
+}
+button:focus{
+	outline: none !important;
+
+}
+  
 #nav-icon3 span {
 	display: block;
 	position: absolute;
