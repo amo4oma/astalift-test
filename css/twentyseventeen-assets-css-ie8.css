@@ -37,10 +37,7 @@ h6 {
 	font-size: 16px;
 	font-size: 1rem;
 }
-
-img {
-	width: inherit;  /* Make images fill their parent's space. */
-}
+ 
 
 /* Fixes linked images */
 .entry-content a img,
@@ -112,7 +109,10 @@ a:hover{
 #nav {
 	height: 100px;
 }
-
+.logo-img{
+	width: 200px;
+ 
+}
 .menu-toggle {
 	width: 150px;
 }

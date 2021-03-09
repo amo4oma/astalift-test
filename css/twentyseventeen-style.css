@@ -2901,11 +2901,11 @@ h2.widget-title {
 16.0 Media
 --------------------------------------------------------------*/
 
-img,
+/* img,
 video {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
-}
+} */
 
 img.alignleft,
 img.alignright {
