@@ -1498,18 +1498,7 @@ and (max-device-width : 480px) {
     justify-content: center;
     margin-left: 0;
   }
-  .section-review-item-content-image-wrapper{
-    display: none;
-  }
-  .section-review-item-content-image-video-wrapper{
-    display: none;
-  }
-  .section-review-item-content-image-backdrop{
-    display: none;
-  }
-  .section-review-item-content-image{
-    
-  }
+ 
   .product-selection-item-details-container{
     margin-top: 300px;
     margin-bottom: 100px;
