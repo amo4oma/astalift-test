@@ -962,10 +962,7 @@ text-decoration: none;
   background-color: #ffffff;
 }
 
-.product-selection-item-details-container .button-primary {
-  width: 60%;
-  height: 66px;
-}
+ 
 
 .product-selection-item-details-container.right .button-primary {
   background-color: #e8e8e8;
@@ -1535,7 +1532,8 @@ and (max-device-width : 480px) {
 
   }
  .steps{
-   margin-bottom: 0px;
+   margin-bottom: 0rem !important;
+   margin-top: 15px !important;
  }
  .sbha-button{
    border-radius: 50px;
@@ -1661,6 +1659,7 @@ and (max-device-width : 480px) {
 
   .header-content-big {
     display: block;
+ 
   }
 
   .header-content-small {
@@ -1711,6 +1710,7 @@ and (max-device-width : 480px) {
 
   .banner-img {
     display: block;
+    margin-top: 20px;
   }
 
   .banner-img-medium {
@@ -1738,7 +1738,7 @@ and (max-device-width : 480px) {
   .banner-text-container {
     align-items: flex-end;
     text-align: right;
-    margin-top: 72px;
+    margin-top: 272px;
     margin-bottom: 0px;
   }
 
