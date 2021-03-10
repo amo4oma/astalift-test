@@ -1583,7 +1583,10 @@ and (max-device-width : 480px) {
 
   }
  .steps{
-    
+  padding: 20px;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 20px;
  }
  .sbha-button{
   border-radius: 50px;
