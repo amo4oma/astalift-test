@@ -719,6 +719,9 @@ text-decoration: none;
   text-align: center;
   width: 500px;
 }
+#forth-step{
+  width: 200% !important;
+}
 
 .steps-tab-wrapper {
   position: relative;
